@@ -1,0 +1,23 @@
+body{
+background-color:bisque; 
+}
+h1 {
+    font-family: 'roboto',
+    sans-serif;
+    font-size: 55px;
+    color:blue;
+}
+h2 {
+    font-family:'inspiration',
+    sans-serif;
+    color:blueviolet
+}
+
+h3 {
+    color:aquamarine
+}
+
+.container{
+    color: brown;
+    background-color: black;
+}
