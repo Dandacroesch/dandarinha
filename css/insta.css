@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+.nome{
+    font-family: 'Rock 3D', cursive;
+}
 body {
-    display: flex;
     justify-content: center;
     min-height: 100vh;
+    background-color: #ca8e5c63;
 }
  .instagram {
      position: relative;
@@ -15,4 +19,41 @@ body {
      );
     box-shadow: 0 15px 40px
     1px rgba(0,0,0,0,.3); 
+    }
+
+    span {
+         display: block;
+         border: 15px solid #fff;
+         width: 150px;
+         height: 150px;
+         border-radius: 55px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         
+    }
+
+    span::before {
+        content: " ";
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;   
+        border: 15px solid
+        #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    span::after{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        top: 16px;
+        right: 16px;
     }
